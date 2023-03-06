@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400;700;800&family=Raleway:wght@500;600&display=swap');
+
+.landing {
+    width: 100%;
+    height: 754px;
+    background-image: url("../images/main-cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    z-index: 22;
+    width: 100%;
+    padding-inline: 135px;
+    box-sizing: border-box;
+    padding-top: 35px;
+}
+.burgerimage {
+    display: none;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.navigation{
+    display: flex;
+    margin-right: -78px;
+}
+.nav-item {
+    font-size: 14px;
+    font-weight:700;
+    margin-right: 40px;
+    font-family: 'Manrope', sans-serif;
+    color: #000000;
+
+}
+.main-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color:#F84646;
+    border: none;
+    line-height: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+.landing {
+    padding-inline: 122px;
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+.landing-div {
+    max-width: 665px;
+    height: 283px;
+}
+h1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 64px;
+    line-height: 82px;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 102px;
+}
+.landing-text {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+}
+.services {
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+h3 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #000000;
+    line-height: 49px;
+}
+h5 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 40px;
+    text-align: center;
+    max-width: 994px;
+    margin-top: 30px;
+}
+.service-box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1153px;
+    justify-content: space-between;
+    margin-top: 47px;
+
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 298px;
+    align-items: center;
+    text-align: center;
+    margin-block:51px;
+}
+.cardcontainer-text {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+.card-h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.offers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 104px;
+    box-sizing: border-box;
+    margin-top: 73px;
+
+}
+.offer-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block:60px;
+    flex-wrap: wrap;
+}
+
+.offer-text {
+    max-width: 523px;
+}
+.offer-h2 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+}
+.offer-p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+    margin-top: 116px;
+    margin-bottom: 80px;
+}
+.offer-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 48px;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color:#F84646;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+}
+.offer-div:nth-child(2) {
+    flex-direction: row-reverse;
+}
+footer {
+    width: 100%;
+    padding-inline: 104px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    background-color: #F8464A;
+    color: #E6E6E6;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    font-family: 'Inter';
+}
+.footer-list-container {
+    max-width: 1034px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list-header {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin-block: 12px;
+}
+.li-footer{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-block: 12px;    
+}
+.footer-bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 38px;
+    align-items: center;
+}
+.logo-container{
+    width: 224px;
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    color: white;
+    align-items: center;
+}
+@media only screen and (max-width: 1240px) {
+    
+    header {
+        padding-inline: 62px;
+    }
+    .services {
+        padding-inline: 86px;
+    }
+    .service-box {
+        padding-inline: 60px;
+    }
+    .offers{
+        padding-inline: 60px;
+    }
+    .offer-text {
+        max-width: 428px;
+    }
+    .offer-h2 {
+        font-size: 58px;
+        line-height: 60px;
+        
+    }
+    .offer-p {
+        font-size: 14px;
+        line-height: 28px;
+        
+    }
+    .offer-img {
+        width: 424px;
+    }
+    footer {
+        padding-inline: 58px;
+    }
+
+}
+@media only screen and (max-width: 980px) {
+    .navigation {
+       display: none; 
+    }
+    .burgerimage {
+        display: block;
+        width: 32px;
+        height: 32px;
+    }
+    
+    h1 {
+        font-size: 42px;
+        line-height: 58px;
+    }
+    .landing { 
+        padding-inline: 20px;
+        text-align: center;
+    }
+    .service-box {
+        justify-content: center;
+        padding-inline:0;
+    }
+    .offer-img {
+        width: 335px;
+        height: auto;
+    }
+    .offers {
+        padding-inline: 17px;
+    }
+    .offer-div {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .offer-div:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+    .offer-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .offer-btn {
+       width: 338px;
+       height: 108px;
+    }
+}
